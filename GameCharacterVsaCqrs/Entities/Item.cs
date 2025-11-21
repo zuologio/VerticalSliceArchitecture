@@ -1,13 +1,17 @@
-﻿namespace GameCharacterVsaCqrs.Entities
+using System.ComponentModel.DataAnnotations;
+
+namespace GameCharacterVsaCqrs.Entities
 {
-    public class GameCharacter
+    public class Item
     {
         public Guid Id { get; set; } = Guid.NewGuid();
-        public string Name { get; set; } = string.Empty;
-        public string Class { get; set; } = string.Empty;
-        public int Level { get; set; } = 1;
 
-        // Navigation for inventory
+        [MaxLength(100)]
+        public string Name { get; set; } = string.Empty;
+
+        public int Power { get; set; }
+
+        // Navigation for reverse lookup
         public ICollection<CharacterItem> CharacterItems { get; set; } = new List<CharacterItem>();
     }
 }
