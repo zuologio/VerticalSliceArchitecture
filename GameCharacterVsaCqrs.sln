@@ -5,6 +5,8 @@ VisualStudioVersion = 18.0.11205.157 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameCharacterVsaCqrs", "GameCharacterVsaCqrs\GameCharacterVsaCqrs.csproj", "{6347654A-B188-4C7A-9D85-F8D93189DA68}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameCharacterVsaCqrs.Tests", "GameCharacterVsaCqrs.Tests\GameCharacterVsaCqrs.Tests.csproj", "{878890F2-B437-4EC2-9962-CC2777C2E3EF}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2A81CB27-3218-42BE-9D91-1B7F9069AEB0}"
 	ProjectSection(SolutionItems) = preProject
 		Directory.Build.Props = Directory.Build.Props
@@ -21,6 +23,10 @@ Global
 		{6347654A-B188-4C7A-9D85-F8D93189DA68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6347654A-B188-4C7A-9D85-F8D93189DA68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6347654A-B188-4C7A-9D85-F8D93189DA68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{878890F2-B437-4EC2-9962-CC2777C2E3EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{878890F2-B437-4EC2-9962-CC2777C2E3EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{878890F2-B437-4EC2-9962-CC2777C2E3EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{878890F2-B437-4EC2-9962-CC2777C2E3EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
